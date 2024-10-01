@@ -1,0 +1,1 @@
+-- To check the files in a directory we used linux called ls -a
