@@ -5,3 +5,5 @@
 -- git branch branch_name - you will create a new branch
 -- git checkout branch_name- to move to a different branch
 -- git merge branchname -- to merge the branches
+echo. > eda.ipynb -- to creata a new file
+git push -u origin main - push the code to the central repository
