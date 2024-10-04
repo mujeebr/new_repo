@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 st.title("House Price Prediction")
 
-st.image("/Users/shaikmujeeburrahman/Downloads/nit_git_eda/naresh_it.jpeg")
+st.image("naresh_it.jpeg")
 
 model = joblib.load("house.pkl")
 
