@@ -4,3 +4,14 @@
 
 # st.title("Welcome to ML")
 # st.header("Ml Deployment")
+
+# write a function to add 2 numbers
+
+def debugging(name):
+    if name == "mujeeb":
+        print("yes")
+    else:
+        print("no")
+    
+debugging("yes")
+
