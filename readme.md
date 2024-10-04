@@ -7,3 +7,4 @@
 -- git merge branchname -- to merge the branches
 echo. > eda.ipynb -- to creata a new file
 git push -u origin main - push the code to the central repository
+ git clone https://github.com/mujeebr/linear_regression.git - to cpy the code

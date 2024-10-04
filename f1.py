@@ -8,10 +8,9 @@
 # write a function to add 2 numbers
 
 def debugging(name):
-    if name == "mujeeb":
+    if name == "mujeeb": # yes == mujeeb
         print("yes")
     else:
         print("no")
     
 debugging("yes")
-
