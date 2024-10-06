@@ -8,7 +8,6 @@
 python -m venv myenv - to create a virtual environment
 myenv\Scripts\activate - fpor windows
 source myenv/bin/activate
-
 echo. > eda.ipynb -- to creata a new file
 git push -u origin main - push the code to the central repository
  git clone https://github.com/mujeebr/linear_regression.git - to cpy the code
