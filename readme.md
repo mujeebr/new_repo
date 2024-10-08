@@ -20,3 +20,17 @@ plt.scatter(df['cgpa'],df['package'])
 plt.plot(X_train,lr.predict(X_train),color='red')
 plt.xlabel('CGPA')
 plt.ylabel('Package(in lpa)')
+pip install "numpy<2" pyarrow
+pip uninstall numpy pyarrow
+pip install numpy<2 pyarrow
+
+docker run -d -P --name catgif manifoldailearning/catgif
+docker ps
+docker port catgif
+docker stop catgif
+docker run -p 8888:5000 manifoldailearning/catgif
+docker build -t catgifv2 .
+docker run -p 8888:5000 catgifv2
+docker login
+docker build -t manifoldailearning/catgif-devops .
+docker push manifoldailearning/catgif-devops
